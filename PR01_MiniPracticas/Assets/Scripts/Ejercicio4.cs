@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Ejercicio4 : MonoBehaviour
 {
+    //se declara velocidad y vectores para mover el objeto
     public float speed = 2f;
     private Vector3 forward = new Vector3(0f,0f,10f);
     private Vector3 back = new Vector3(0f,0f,-10f);

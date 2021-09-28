@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Ejercicio3 : MonoBehaviour
 {
+    //la variable text era para hacer que el contador saliese en pantalla, al final me puse con otros ejercicios
     public Text timer;
     private float intervalo = 1.0f;
     private int[] timeNums = new int[3] {0, 0, 0};
@@ -17,6 +18,7 @@ public class Ejercicio3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //temporizador sin coorutinas usando time.deltatime
         intervalo -= Time.deltaTime;
         if (intervalo < 0)
         {
@@ -32,6 +34,7 @@ public class Ejercicio3 : MonoBehaviour
                     timeNums[2]++;
                 }
             }
+            //el tiempo sale en consola
             print(timeNums[2] + ":" + timeNums[1] + ":" + timeNums[0]);
         }
     }
