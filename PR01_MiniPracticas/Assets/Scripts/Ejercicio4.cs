@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Ejercicio4 : MonoBehaviour
 {
-    public float speed = 10f;
-    private Vector3 forward = new Vector3(0f,0f,1f);
-    private Vector3 back = new Vector3(0f,0f,-1f);
-    private Vector3 left = new Vector3(-1f,0f,0f);
-    private Vector3 right = new Vector3(1f,0f,0f);
+    public float speed = 2f;
+    private Vector3 forward = new Vector3(0f,0f,10f);
+    private Vector3 back = new Vector3(0f,0f,-10f);
+    private Vector3 left = new Vector3(-10f,0f,0f);
+    private Vector3 right = new Vector3(10f,0f,0f);
     // Start is called before the first frame update
     void Start()
     {
